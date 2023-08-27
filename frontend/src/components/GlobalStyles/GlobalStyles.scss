@@ -1,0 +1,21 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap');
+
+:root {}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Lexend', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    background-image: url('../../../public/img/bg10.jpg');
+    background-size: cover;
+}
+
+h1 {
+    color: #fff;
+}
