@@ -11,29 +11,27 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className='container'>
-        <Routes>
-          {publicRoutes.map((route, index) => {
-            // const Layout = route.layout === null ? Fragment : DeafultLayout
-            let Layout = DeafultLayout;
+      <Routes>
+        {publicRoutes.map((route, index) => {
+          // const Layout = route.layout === null ? Fragment : DeafultLayout
+          let Layout = DeafultLayout;
 
-            if (route.layout) {
-              Layout = route.layout
-            } else if (route.layout === null) {
-              Layout = Fragment
-            }
+          if (route.layout) {
+            Layout = route.layout
+          } else if (route.layout === null) {
+            Layout = Fragment
+          }
 
-            const Page = route.component
-            return <Route key={index}
-              path={route.path}
-              element={
-                <Layout>
-                  <Page />
-                </Layout>
-              } />
-          })}
-        </Routes>
-      </div>
+          const Page = route.component
+          return <Route key={index}
+            path={route.path}
+            element={
+              <Layout>
+                <Page />
+              </Layout>
+            } />
+        })}
+      </Routes>
 
     </BrowserRouter>
   )

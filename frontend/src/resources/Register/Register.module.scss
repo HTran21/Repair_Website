@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lexend:wght@300;400;500;600;700&display=swap');
+
+
+.formLogin {
+    width: 370px;
+    margin: 80px auto;
+    min-height: 70vh;
+    backdrop-filter: blur(20px);
+    background-color: rgba(0, 208, 255, 0.171);
+    border-radius: 15px;
+    padding: 5px 20px;
+}
+
+.titleForm {
+    text-align: center;
+}
+
+.logoFrom {
+    width: 70px;
+    margin: 10px;
+    animation: logo-spin infinite 20s linear;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px #cececeef;
+}
+
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.title {
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Black Ops One', cursive;
+
+}
+
+.desForm {
+    color: #ffffff;
+    padding: 10px;
+}
+
+// Group input
+.groupInput {
+    position: relative;
+    display: grid;
+    grid-template-columns: 30px auto;
+    padding: 10px 0;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: #ffffff36;
+
+
+}
+
+
+
+
+.iconInput {
+    padding: 0 12px;
+
+}
+
+.inputForm {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 3px 0px 0px 3px;
+    margin-left: 5px;
+    color: #fff;
+}
+
+.inputForm::placeholder {
+    color: rgba(230, 230, 230, 0.679);
+}
+
+.groupInput2 {
+    position: relative;
+    display: grid;
+    grid-template-columns: 30px auto 30px;
+    padding: 10px 0;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: #ffffff36;
+
+}
+
+.iconInput2 {
+    padding: 0 12px;
+    transform: translateY(2px);
+
+}
+
+.inputForm2 {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 3px 0px 0px 3px;
+    margin-left: 5px;
+    color: #fff;
+}
+
+.inputForm2::placeholder {
+    color: rgba(230, 230, 230, 0.679);
+}
+
+input[type="password"]~.test {
+    display: none;
+}
+
+input[type="text"]~.test2 {
+    display: none;
+}
+
+.groupInput3 {
+    position: relative;
+    display: grid;
+    grid-template-columns: 30px auto 30px;
+    padding: 10px 0;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: #ffffff36;
+
+}
+
+.iconInput3 {
+    padding: 0 12px;
+    transform: translateY(2px);
+
+}
+
+.inputForm3 {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 3px 0px 0px 3px;
+    margin-left: 5px;
+    color: #fff;
+}
+
+.inputForm3::placeholder {
+    color: rgba(230, 230, 230, 0.679);
+}
+
+input[type="password"]~.test3 {
+    display: none;
+}
+
+input[type="text"]~.test4 {
+    display: none;
+}
+
+
+.btnLogin {
+    width: 100%;
+    margin: 20px 0;
+    border: none;
+    padding: 10px 8px 8px 8px;
+    border-radius: 10px;
+    background-color: #4675b788;
+    color: #fff;
+    font-size: 22px;
+
+}
+
+.btnLogin:hover {
+    box-shadow: 0px 10px 10px #dcdcdca2;
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+
+.textLink {
+    cursor: pointer;
+    font-weight: 300;
+    color: #97FFF4;
+}

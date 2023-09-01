@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lexend:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+
+
+.imgLogo {
+    width: 50px;
+}
+
+
+.textLogo {
+    font-size: 24px;
+    color: #fff;
+    font-family: 'Black Ops One', cursive;
+    // transform: translate(-5px, 3px);
+}
+
+.navLinkColor {
+    font-family: 'Lalezar', cursive;
+    font-size: 18px;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 23px;
+    width: 100px;
+    text-align: center;
+    margin: 0px 10px;
+
+}
+
+.navLinkColor:hover {
+    background-color: rgba(0, 170, 255, 0.415);
+    box-shadow: 0px 10px 10px #dedede4c;
+    transition: 0.5s;
+    transform: scale(1.05);
+
+}
+
+.navLinkColor p {
+    margin: 3px 0 0 0;
+}
+
+@media only screen and (max-width: 992px) {
+    .navLinkColor {
+        width: 100%;
+        text-align: center;
+    }
+
+    .infoUser {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+// info user
+
+.infoUser {
+    display: flex;
+    cursor: pointer;
+
+}
+
+.imgUser {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+.nameUser {
+    margin: 15px 0px 0px 5px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.active {
+    background-image: linear-gradient(to right, #525fd5, #704ccc);
+
+}
